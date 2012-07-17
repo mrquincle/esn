@@ -7,11 +7,9 @@
 #include <stdlib.h>
 
 #include <esn.h>
-//#include <audioMicrocircuit.h>
 #include <inv.h>
 #include <esn_train.h>
 
-//using namespace almendeSensorFusion;
 using namespace std;
 
 #define HARD_MACKEY_GLASS  	30
@@ -192,7 +190,7 @@ void test_regression() {
  ***************************************************************************/
 
 /**
- * Create and run an ESN. Misuse the audioMicrocircuit class for that.
+ * Create and run an ESN. 
  */
 int main(int argc, char*argv[]) {
 //#define TEST
@@ -251,7 +249,7 @@ int main(int argc, char*argv[]) {
 //	nof_neurons = 60; K = 8;
 	float connectivity = K / (float)nof_neurons;
 
-	connectivity = 0.2;
+	connectivity = 0.1;
 	ESNPrediction pred(nof_neurons, connectivity);
 
 	for (int t = 0; t < nof_trials; t++) {
