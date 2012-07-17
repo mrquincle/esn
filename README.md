@@ -22,8 +22,8 @@ An often used example to showcase the prediction properties of a method is the c
 ![ESN state](https://github.com/mrquincle/esn/raw/master/doc/reservoir_state.jpg "Echo state network state")
 
 ## Where can I read more?
-* [Scholarpedia](http://www.scholarpedia.org/article/Echo_state_network)
-* [Scholarpedia](http://www.scholarpedia.org/article/Mackey-Glass_equation)
+* [Scholarpedia (on ESNs)](http://www.scholarpedia.org/article/Echo_state_network)
+* [Scholarpedia (on Mackey-Glass)](http://www.scholarpedia.org/article/Mackey-Glass_equation)
 
 ## Copyrights
 The copyrights (2012) belong to:
