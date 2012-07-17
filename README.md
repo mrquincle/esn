@@ -13,9 +13,13 @@ Echo state machines (as other reservoir computing methods) uses a network of rec
 Almende and DO bots have been using ESNs for audio processing in the [Robot3D](https://launchpad.net/robot3d) simulator (an open-source multi-robot simulator using in the European research project Replicator). ESNs performs quite okay on simple tasks like vowel identification and recognition of simple audio signatures. Do not expect very well performance on temporal data that is a.) context-sensitive, b.) hierarchically structured, or c.) spanning multiple time-scales. Alternatives to echo state networks are temporal recurrent neural networks, liquid state machines, and decorrelation-backpropagation learning.
 
 ## An example
-An often used example to showcase the prediction properties of a method is the chaotic time-series corresponding to the time delay differential Mackey-Glass equation. Depending on the parameters the exhibited behaviour ranges from periodic to chaotic, hence it can function to demonstrate the strengths of a predictor.
+An often used example to showcase the prediction properties of a method is the chaotic time-series corresponding to the time delay differential Mackey-Glass equation. Depending on the parameters the exhibited behaviour ranges from periodic to chaotic, hence it can function to demonstrate the strengths of a predictor. Below you can see the time series prediction over a short and longer time span. The last picture shows the state of the echo state network.
 
 ![Mackey-Glass prediction](https://github.com/mrquincle/esn/raw/master/doc/mackey_glass.png "Mackey-Glass time series prediction")
+
+![Long Mackey-Glass prediction](https://github.com/mrquincle/esn/raw/master/doc/mackey_glass_long.png "Mackey-Glass time series prediction over longer time span")
+
+![ESN state](https://github.com/mrquincle/esn/raw/master/doc/reservoir_state.jpg "Echo state network state")
 
 ## Where can I read more?
 * [Scholarpedia](http://www.scholarpedia.org/article/Echo_state_network)
