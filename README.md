@@ -30,9 +30,11 @@ There are no dependencies except for the normal ones available to each Linux sys
 * [Scholarpedia (on Mackey-Glass)](http://www.scholarpedia.org/article/Mackey-Glass_equation)
 
 ## Copyrights
-The copyrights (2014) belong to:
+The copyrights (2012) belong to:
 
 - Author: Ted Schmidt
 - Author: Anne van Rossum
 - Almende B.V., http://www.almende.com and DoBots, http://www.dobots.nl
 - Rotterdam, The Netherlands
+
+Last updated: May 2014
